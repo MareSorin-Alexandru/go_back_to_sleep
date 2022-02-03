@@ -1,1 +1,13 @@
-test 2
+go_back_to_sleep (auto_poweroff) is a simple python utility to send shutdown signals over a local network after a power outage (and restoration) would turn on computers 
+
+Prerequisites:
+
+ssh servers on the remote hosts
+constant IP addresses for the remote hosts (Look into the DHCP settings in your router)
+
+sshpass on the shutdown server
+
+
+To do:
+
+add support for passwordless logins via ssh keys
