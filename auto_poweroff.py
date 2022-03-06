@@ -57,4 +57,5 @@ def if_uptime_difference_s_lower_than_poweroff(secs, remote_hosts, remote_passs)
             # send_remote_shutdown_signal(remote_host, remote_pass)
             send_remote_shutdown_signal(remote_hosts[i], remote_passs[i])
 
+
 if_uptime_difference_s_lower_than_poweroff(90, hosts, passwords)

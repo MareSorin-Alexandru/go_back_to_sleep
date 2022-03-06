@@ -1,4 +1,4 @@
-go_back_to_sleep (auto_poweroff) is a simple python utility to send shutdown signals over a local network after a power outage (and restoration) would turn on said computers.
+go_back_to_sleep (auto_poweroff) is a simple python utility that sends shutdown signals over a local network after a power outage (and restoration) would turn on said computers.
 Intended to be run on a low power master server like a raspberry pi which boots automatically on power restore.
 
 Older motherboards support WOL (wake on LAN) but only after the first power cycle (after an outage - which can be triggered by the boot-up on power restore setting in the BIOS) - so is the case for one of my other servers.
